@@ -1,0 +1,86 @@
+
+html {
+    background-image: url(imagenes/Main.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 15px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255);
+}
+
+header h1{
+    text-align: center;
+    color: rgba(255, 255, 255);
+    font-weight: normal;
+    font-size: 50px;
+}
+header h2 {
+    margin: 25px 0 0 57px;
+    font-size: 15px;
+    font-family: 'Georgia', serif;
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.Games {
+    background-color: rgba(84, 84, 84, 0.6);
+    text-align: center;
+}
+
+.Games img{
+    margin: 15px 5px 15px 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+main {
+    background-color: rgba(84, 84, 84, 0.6);
+}
+main h2 {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding-top: 15px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 5px 30px 5px 30px;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+article a {
+    color: white;
+    text-decoration: none;
+
+}
+
+article a:hover {
+    color:gray;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 15px 0 15px 20px;
+}
